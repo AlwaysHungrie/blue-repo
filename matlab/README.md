@@ -8,5 +8,6 @@
  img_segmentation(imread("pot.png"),false)
  [True/False - depends on noise of image, uses triangle_th.m]
 
- Input:
- Output:
+ ![input image](https://github.com/AlwaysHungrie/blue-repo/blob/master/matlab/pot.png)
+ 
+ ![output image](https://github.com/AlwaysHungrie/blue-repo/blob/master/matlab/segmented_pot.jpg) 
