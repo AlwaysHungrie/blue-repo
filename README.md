@@ -1,7 +1,13 @@
-# blue-repo
-Working repo for deep blue csp2
+# Pothole Detection
 
-### Immediate Goals
-Texture Extraction and Comparission (in shared research paper)
- - Android app: for collecting video data
- - Matlab code: for processing
+### Steps for pothole detection
+ - Image segementation
+ - Shape
+ - Texture
+ - Tracking
+
+### Image segmentation
+ img_segmentation(imread("pot.png"),false)
+ [True/False - depends on noise of image, uses triangle_th.m]
+
+ ![input image](https://github.com/AlwaysHungrie/blue-repo/blob/master/matlab/pot.png) ![output image](https://github.com/AlwaysHungrie/blue-repo/blob/master/matlab/segmented_pot.jpg) 
